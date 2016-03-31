@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53AF557E1CAD698100547DB1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF557D1CAD698100547DB1 /* AppDelegate.m */; };
+		53AF55811CAD698100547DB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF55801CAD698100547DB1 /* main.m */; };
+		53AF55841CAD698100547DB1 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53AF55831CAD698100547DB1 /* ViewController.mm */; };
+		53AF55861CAD698100547DB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AF55851CAD698100547DB1 /* Assets.xcassets */; };
+		53AF55891CAD698100547DB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53AF55871CAD698100547DB1 /* Main.storyboard */; };
+		53AF55941CAD698100547DB1 /* LibTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF55931CAD698100547DB1 /* LibTestTests.m */; };
+		53AF559F1CAD698100547DB1 /* LibTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AF559E1CAD698100547DB1 /* LibTestUITests.m */; };
+		53AF55B31CAD699C00547DB1 /* LibGen.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 53AF55B21CAD699C00547DB1 /* LibGen.hpp */; };
+		53AF55B51CAD699C00547DB1 /* LibGenPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 53AF55B41CAD699C00547DB1 /* LibGenPriv.hpp */; };
+		53AF55B71CAD699C00547DB1 /* LibGen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53AF55B61CAD699C00547DB1 /* LibGen.cpp */; };
+		53AF55BD1CAD69BF00547DB1 /* libLibGen.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53AF55B01CAD699C00547DB1 /* libLibGen.dylib */; };
+		53AF55BF1CAD69D400547DB1 /* libLibGen.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 53AF55B01CAD699C00547DB1 /* libLibGen.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53AF55901CAD698100547DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53AF55711CAD698100547DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AF55781CAD698100547DB1;
+			remoteInfo = LibTest;
+		};
+		53AF559B1CAD698100547DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53AF55711CAD698100547DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AF55781CAD698100547DB1;
+			remoteInfo = LibTest;
+		};
+		53AF55BB1CAD69BA00547DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53AF55711CAD698100547DB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AF55AF1CAD699C00547DB1;
+			remoteInfo = LibGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		53AF55BE1CAD69C900547DB1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				53AF55BF1CAD69D400547DB1 /* libLibGen.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53AF55791CAD698100547DB1 /* LibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AF557C1CAD698100547DB1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53AF557D1CAD698100547DB1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53AF55801CAD698100547DB1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53AF55821CAD698100547DB1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		53AF55831CAD698100547DB1 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		53AF55851CAD698100547DB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AF55881CAD698100547DB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53AF558A1CAD698100547DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AF558F1CAD698100547DB1 /* LibTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AF55931CAD698100547DB1 /* LibTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibTestTests.m; sourceTree = "<group>"; };
+		53AF55951CAD698100547DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AF559A1CAD698100547DB1 /* LibTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AF559E1CAD698100547DB1 /* LibTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibTestUITests.m; sourceTree = "<group>"; };
+		53AF55A01CAD698100547DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53AF55B01CAD699C00547DB1 /* libLibGen.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLibGen.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AF55B21CAD699C00547DB1 /* LibGen.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LibGen.hpp; sourceTree = "<group>"; };
+		53AF55B41CAD699C00547DB1 /* LibGenPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LibGenPriv.hpp; sourceTree = "<group>"; };
+		53AF55B61CAD699C00547DB1 /* LibGen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LibGen.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AF55761CAD698100547DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55BD1CAD69BF00547DB1 /* libLibGen.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF558C1CAD698100547DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF55971CAD698100547DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF55AD1CAD699C00547DB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53AF55701CAD698100547DB1 = {
+			isa = PBXGroup;
+			children = (
+				53AF557B1CAD698100547DB1 /* LibTest */,
+				53AF55921CAD698100547DB1 /* LibTestTests */,
+				53AF559D1CAD698100547DB1 /* LibTestUITests */,
+				53AF55B11CAD699C00547DB1 /* LibGen */,
+				53AF557A1CAD698100547DB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AF557A1CAD698100547DB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AF55791CAD698100547DB1 /* LibTest.app */,
+				53AF558F1CAD698100547DB1 /* LibTestTests.xctest */,
+				53AF559A1CAD698100547DB1 /* LibTestUITests.xctest */,
+				53AF55B01CAD699C00547DB1 /* libLibGen.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AF557B1CAD698100547DB1 /* LibTest */ = {
+			isa = PBXGroup;
+			children = (
+				53AF557C1CAD698100547DB1 /* AppDelegate.h */,
+				53AF557D1CAD698100547DB1 /* AppDelegate.m */,
+				53AF55821CAD698100547DB1 /* ViewController.h */,
+				53AF55831CAD698100547DB1 /* ViewController.mm */,
+				53AF55851CAD698100547DB1 /* Assets.xcassets */,
+				53AF55871CAD698100547DB1 /* Main.storyboard */,
+				53AF558A1CAD698100547DB1 /* Info.plist */,
+				53AF557F1CAD698100547DB1 /* Supporting Files */,
+			);
+			path = LibTest;
+			sourceTree = "<group>";
+		};
+		53AF557F1CAD698100547DB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53AF55801CAD698100547DB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53AF55921CAD698100547DB1 /* LibTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				53AF55931CAD698100547DB1 /* LibTestTests.m */,
+				53AF55951CAD698100547DB1 /* Info.plist */,
+			);
+			path = LibTestTests;
+			sourceTree = "<group>";
+		};
+		53AF559D1CAD698100547DB1 /* LibTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53AF559E1CAD698100547DB1 /* LibTestUITests.m */,
+				53AF55A01CAD698100547DB1 /* Info.plist */,
+			);
+			path = LibTestUITests;
+			sourceTree = "<group>";
+		};
+		53AF55B11CAD699C00547DB1 /* LibGen */ = {
+			isa = PBXGroup;
+			children = (
+				53AF55B21CAD699C00547DB1 /* LibGen.hpp */,
+				53AF55B41CAD699C00547DB1 /* LibGenPriv.hpp */,
+				53AF55B61CAD699C00547DB1 /* LibGen.cpp */,
+			);
+			path = LibGen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53AF55AE1CAD699C00547DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55B51CAD699C00547DB1 /* LibGenPriv.hpp in Headers */,
+				53AF55B31CAD699C00547DB1 /* LibGen.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53AF55781CAD698100547DB1 /* LibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AF55A31CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTest" */;
+			buildPhases = (
+				53AF55751CAD698100547DB1 /* Sources */,
+				53AF55761CAD698100547DB1 /* Frameworks */,
+				53AF55771CAD698100547DB1 /* Resources */,
+				53AF55BE1CAD69C900547DB1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53AF55BC1CAD69BA00547DB1 /* PBXTargetDependency */,
+			);
+			name = LibTest;
+			productName = LibTest;
+			productReference = 53AF55791CAD698100547DB1 /* LibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53AF558E1CAD698100547DB1 /* LibTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AF55A61CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTestTests" */;
+			buildPhases = (
+				53AF558B1CAD698100547DB1 /* Sources */,
+				53AF558C1CAD698100547DB1 /* Frameworks */,
+				53AF558D1CAD698100547DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53AF55911CAD698100547DB1 /* PBXTargetDependency */,
+			);
+			name = LibTestTests;
+			productName = LibTestTests;
+			productReference = 53AF558F1CAD698100547DB1 /* LibTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53AF55991CAD698100547DB1 /* LibTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AF55A91CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTestUITests" */;
+			buildPhases = (
+				53AF55961CAD698100547DB1 /* Sources */,
+				53AF55971CAD698100547DB1 /* Frameworks */,
+				53AF55981CAD698100547DB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53AF559C1CAD698100547DB1 /* PBXTargetDependency */,
+			);
+			name = LibTestUITests;
+			productName = LibTestUITests;
+			productReference = 53AF559A1CAD698100547DB1 /* LibTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		53AF55AF1CAD699C00547DB1 /* LibGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AF55BA1CAD699C00547DB1 /* Build configuration list for PBXNativeTarget "LibGen" */;
+			buildPhases = (
+				53AF55AC1CAD699C00547DB1 /* Sources */,
+				53AF55AD1CAD699C00547DB1 /* Frameworks */,
+				53AF55AE1CAD699C00547DB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibGen;
+			productName = LibGen;
+			productReference = 53AF55B01CAD699C00547DB1 /* libLibGen.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AF55711CAD698100547DB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = commvault;
+				TargetAttributes = {
+					53AF55781CAD698100547DB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					53AF558E1CAD698100547DB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 53AF55781CAD698100547DB1;
+					};
+					53AF55991CAD698100547DB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 53AF55781CAD698100547DB1;
+					};
+					53AF55AF1CAD699C00547DB1 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 53AF55741CAD698100547DB1 /* Build configuration list for PBXProject "LibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53AF55701CAD698100547DB1;
+			productRefGroup = 53AF557A1CAD698100547DB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AF55781CAD698100547DB1 /* LibTest */,
+				53AF558E1CAD698100547DB1 /* LibTestTests */,
+				53AF55991CAD698100547DB1 /* LibTestUITests */,
+				53AF55AF1CAD699C00547DB1 /* LibGen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AF55771CAD698100547DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55861CAD698100547DB1 /* Assets.xcassets in Resources */,
+				53AF55891CAD698100547DB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF558D1CAD698100547DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF55981CAD698100547DB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AF55751CAD698100547DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55841CAD698100547DB1 /* ViewController.mm in Sources */,
+				53AF55811CAD698100547DB1 /* main.m in Sources */,
+				53AF557E1CAD698100547DB1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF558B1CAD698100547DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55941CAD698100547DB1 /* LibTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF55961CAD698100547DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF559F1CAD698100547DB1 /* LibTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53AF55AC1CAD699C00547DB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AF55B71CAD699C00547DB1 /* LibGen.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53AF55911CAD698100547DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53AF55781CAD698100547DB1 /* LibTest */;
+			targetProxy = 53AF55901CAD698100547DB1 /* PBXContainerItemProxy */;
+		};
+		53AF559C1CAD698100547DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53AF55781CAD698100547DB1 /* LibTest */;
+			targetProxy = 53AF559B1CAD698100547DB1 /* PBXContainerItemProxy */;
+		};
+		53AF55BC1CAD69BA00547DB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53AF55AF1CAD699C00547DB1 /* LibGen */;
+			targetProxy = 53AF55BB1CAD69BA00547DB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53AF55871CAD698100547DB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53AF55881CAD698100547DB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53AF55A11CAD698100547DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53AF55A21CAD698100547DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53AF55A41CAD698100547DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = $PROJECT_DIR/LibGen;
+				INFOPLIST_FILE = LibTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53AF55A51CAD698100547DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = $PROJECT_DIR/LibGen;
+				INFOPLIST_FILE = LibTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53AF55A71CAD698100547DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibTest.app/Contents/MacOS/LibTest";
+			};
+			name = Debug;
+		};
+		53AF55A81CAD698100547DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibTest.app/Contents/MacOS/LibTest";
+			};
+			name = Release;
+		};
+		53AF55AA1CAD698100547DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		53AF55AB1CAD698100547DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = LibTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.commvault.LibTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LibTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		53AF55B81CAD699C00547DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53AF55B91CAD699C00547DB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AF55741CAD698100547DB1 /* Build configuration list for PBXProject "LibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF55A11CAD698100547DB1 /* Debug */,
+				53AF55A21CAD698100547DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AF55A31CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF55A41CAD698100547DB1 /* Debug */,
+				53AF55A51CAD698100547DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AF55A61CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF55A71CAD698100547DB1 /* Debug */,
+				53AF55A81CAD698100547DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AF55A91CAD698100547DB1 /* Build configuration list for PBXNativeTarget "LibTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF55AA1CAD698100547DB1 /* Debug */,
+				53AF55AB1CAD698100547DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AF55BA1CAD699C00547DB1 /* Build configuration list for PBXNativeTarget "LibGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AF55B81CAD699C00547DB1 /* Debug */,
+				53AF55B91CAD699C00547DB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AF55711CAD698100547DB1 /* Project object */;
+}
